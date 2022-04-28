@@ -1,0 +1,52 @@
+{
+    "Groups": {
+        "A": [
+            "QATAR",
+            "ECUADOR",
+            "SENEGAL",
+            "PAISES BAJOS"
+        ],
+        "B": [
+            "Inglaterra",
+            "IRAN",
+            "USA",
+            "UNDEF"
+        ],
+        "C": [
+            "ARGENTINA",
+            "ARABIA SAUDITA",
+            "MEXICO",
+            "POLONIA"
+        ],
+        "D": [
+            "FRANCIA",
+            "UNDEF",
+            "DINAMARCA",
+            "TUNEZ"
+        ],
+        "E": [
+            "ESPAÑA",
+            "UNDEF",
+            "ALEMANIA",
+            "JAPON"
+        ],
+        "F": [
+            "BELGICA",
+            "CANADA",
+            "MARRUECOS",
+            "CROACIA"
+        ],
+        "G": [
+            "BRASIL",
+            "SERBIA",
+            "SUIZA",
+            "CAMERUN"
+        ],
+        "H": [
+            "PORTUGAL",
+            "GHANA",
+            "URUGUAY",
+            "COREA DEL SUR"
+        ]
+    }
+}
