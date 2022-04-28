@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
+import { Col, Row, Tab, Tabs, TextInput, Table } from "react-materialize";
 import Match from "./Match";
 import Fixture from "../qatar2022.json";
-import { Col, Row, Tab, Tabs, TextInput, Table } from "react-materialize";
 
 function Prode({ prode, onChange }) {
   return (
     <Tabs
       className=" z-depth-1"
       options={{
-        swipeable: true,
+        swipeable: false,
       }}
       scope="tabs-5"
     >
@@ -16,7 +16,7 @@ function Prode({ prode, onChange }) {
         console.log(prode);
         return (
           <Tab
-            className=" lime lighten-3"
+            className=" lime lighten-4"
             options={{
               duration: 300,
               onShow: null,

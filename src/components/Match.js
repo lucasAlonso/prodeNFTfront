@@ -1,8 +1,19 @@
 import { Select } from "react-materialize";
+import React, { useState, useEffect } from "react";
 
 function Match({ team1, team2, group, matchId, onChange }) {
+  const [selected, setSelected] = useState(false);
+  const selectOnChange = () => {
+    setSelected(true);
+  };
   return (
-    <tr>
+    <tr
+      style={
+        selected
+          ? { "background-color": "grey" }
+          : { "background-color": "green" }
+      }
+    >
       <td>{team1}</td>
       <td>
         <Select
@@ -20,7 +31,7 @@ function Match({ team1, team2, group, matchId, onChange }) {
               hover: false,
               inDuration: 150,
               onCloseEnd: null,
-              onCloseStart: null,
+              onCloseStart: selectOnChange,
               onOpenEnd: null,
               onOpenStart: null,
               outDuration: 250,
